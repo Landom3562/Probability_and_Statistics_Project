@@ -139,13 +139,18 @@ the C values for them. Then based on the patients’ computed C values, it shoul
 and H values. Finally, it should also plot the following:
 
 a. In the same figure, plot the population histogram for A and the pmf of A.
+
 b. In the same figure, plot the population histogram for B and the pdf of B.
+
 c. Plot the population histogram for C and print the pmf of C estimated using the
 generated population.
+
 d. In the same figure, plot the population histogram for D and the joint pdf of D with each
 possible value of C.
+
 e. In the same figure, plot the population histogram for E and the joint pdf of E with each
 possible value of C.
+
 18. Generate a population of 1000 patients. It should be a 2D array of shape 1000x6 where the
 random variables appear in the order of A, B, C, D, E, and H.
 19. Similar to step 17, generate a population of 1000000 patients. This will be your hypothetical
@@ -255,15 +260,20 @@ functions, it samples from a subset of the population where the patient is in th
 and returns lists of estimated parameters of variables D, E, and H.
 9. Call the parameter_estimation function for the “very risky” patient category with the sample
 size as 100 and the number of samples as 1000.
+
 a. In the same figure, plot the histogram of the estimated i parameter of E, a vertical line
 at the average of the estimations, and a vertical line at the actual i value.
+
 b. In the same figure, plot the histogram of the estimated j parameter of E, a vertical line
 at the average of the estimations, and a vertical line at the actual i value.
+
 c. In the same figure, plot the histogram of the estimated k parameter of H, a vertical line
 at the average of the estimations, and a vertical line at the actual i value.
+
 d. In the same figure, plot the histogram of the estimated i parameter of H, a vertical line
 at the average of the estimations, and a vertical line at the actual i value.
-10. Copy your figures from step 8 into your report.
+
+11. Copy your figures from step 8 into your report.
 TASK 4: Confidence intervals
 
 Your fourth task is to calculate confidence intervals for the population mean of variable A.
@@ -276,14 +286,18 @@ confidence interval for the population mean of the requested variable.
 2. For random variable A and sample size of 1000, compute the confidence intervals for 20
 different samples for both confidence levels as 0.98 and 0.8, using the calc_conf_int_mean
 function.
+
 a. In the same figure, plot the computed confidence intervals for level 0.98, confidence
 intervals for level 0.8, and a vertical line at the actual population mean for A.
+
 3. Copy your figure from step 2 into your report. How do the confidence intervals change with
 respect to the confidence levels? Comment on your findings.
 4. For random variable A and a confidence level of 0.9, compute the confidence intervals for the
 sample size of [ 100, 400, …, 4900] using the calc_conf_int_mean function.
+
 a. In the same figure, plot the computed confidence intervals with varying sample sizes
 and a vertical line at the actual population mean for A.
+
 5. Copy your figure from step 4 into your report. How do the confidence intervals change with
 respect to the sample sizes? Comment on your findings.
 TASK 5: Hypothesis testing
