@@ -1,7 +1,11 @@
 CENG 222
+
 Probability and Statistics
+
 Term Project for 2022-2023 Spring
+
 DUE DATE: 26.06.2023 - 23:59
+
 In this project, you will analyze the relationship between five random variables in a healthcare context:
 exercise frequency (A), caloric intake (B), patient category (C), cholesterol level (D), blood pressure (E),
 and Hemoglobin A1c (HbA1c) level (H). For this analysis, you will first implement algorithms to
