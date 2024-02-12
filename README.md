@@ -13,14 +13,17 @@ generate those variables and create a population. Then by sampling from this pop
 analyze their statistics, estimate different distribution parameters, compute confidence intervals, test a
 hypothesis, and automatically classify patients into patient categories by looking at their D, E, and H
 values.
+
 You will also produce relevant plots for each step to help you understand and interpret the exercises
 and check your results. In the meantime, you will calculate or derive estimators for the unknown
 distribution parameters required for implementations.
+
 In conclusion, your project submission will be in two folds: the implementation part for which a single
 Python script is expected and the reporting part for which a pdf file is expected. The project is broken
 down into many small steps, and if it is in the implementation part, a step is marked with red and
 otherwise with blue. Only 3 packages are required for implementation: numpy, sympy, and pyplot.
 The random variables' details, distributions, and relations are as follows:
+
 ● Exercise frequency (A): This represents how often a patient engages in physical exercise per
 week. Patients who exercise more frequently are generally associated with better health
 outcomes.
