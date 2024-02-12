@@ -240,8 +240,11 @@ Moments estimations for i and j. You should use sympy’s solver to find j using
 code where you have to replace f(j) with your function expression:
 
 j = sympy.S('j')
+
 sol = sympy.solve(f(j), j)
+  
   ind = 0
+  
   while True:
     j = float(sol[ind].as_real_imag()[0])
     ind += 1
@@ -250,15 +253,18 @@ sol = sympy.solve(f(j), j)
 
 After this point, you should be able to compute i using g(j).
 
-6. For variable H, compute the estimator for its parameters k and l using the Method of Maximum
+5. For variable H, compute the estimator for its parameters k and l using the Method of Maximum
 Likelihood.
-7. Implement a function (estimate_mml_h) that takes a sample of H and returns the Method of
+
+6. Implement a function (estimate_mml_h) that takes a sample of H and returns the Method of
 Maximum Likelihood estimations for k.
-8. Implement a function (parameter_estimation) that takes a population, sample size (n), the
+
+7. Implement a function (parameter_estimation) that takes a population, sample size (n), the
 number of sampling (m) and patient category as input. Using the previously implemented
 functions, it samples from a subset of the population where the patient is in the given category
 and returns lists of estimated parameters of variables D, E, and H.
-9. Call the parameter_estimation function for the “very risky” patient category with the sample
+
+8. Call the parameter_estimation function for the “very risky” patient category with the sample
 size as 100 and the number of samples as 1000.
 
 a. In the same figure, plot the histogram of the estimated i parameter of E, a vertical line
@@ -273,7 +279,8 @@ at the average of the estimations, and a vertical line at the actual i value.
 d. In the same figure, plot the histogram of the estimated i parameter of H, a vertical line
 at the average of the estimations, and a vertical line at the actual i value.
 
-11. Copy your figures from step 8 into your report.
+9. Copy your figures from step 8 into your report.
+
 TASK 4: Confidence intervals
 
 Your fourth task is to calculate confidence intervals for the population mean of variable A.
