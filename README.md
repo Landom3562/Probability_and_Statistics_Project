@@ -345,19 +345,3 @@ the corresponding d, e, and h values and the previously estimated distribution p
 Determine the category of the patient as the one with the highest posterior probability.
 Compare the estimated and the actual categories to check if the classification was correct. In
 1000 tests, compute and print the ratio of the correctly classified patients.
-
-IMPORTANT NOTES:
-1. A lecture on Python, NumPy, and Pyplot focusing on this term project will be given next week.
-Notes from that lecture will also be available for you.
-2. This is NOT a group activity. You can discuss some points with your friends, but each student
-will submit and be graded individually. If you want to be safe rather than sorry, you should
-consult with the course assistants as your primary and with the instructor as your secondary
-source of knowledge.
-3. The Python scripts and the reports will be processed manually and automatically to detect
-plagiarism and cheating. Again: You should be careful about the level of cooperation with your
-friends. In case of cheating, all parties will be punished equally.
-4. Your Python script should be named studentid.py, and your report studentid.pdf.
-5. If your report is hand-written, the responsibility is yours to make it as legible as possible.
-Illegible parts will not be graded.
-6. Once the projects are graded, you will receive detailed feedback about your submission. There
-will be a grace period for your objections.
